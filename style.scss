@@ -381,6 +381,7 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .t-n-10 {
       position: absolute;
@@ -392,6 +393,7 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .t-n-11 {
       position: absolute;
@@ -403,6 +405,7 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .t-n-12 {
       position: absolute;
@@ -414,6 +417,7 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .t-n-13 {
       position: absolute;
@@ -425,6 +429,7 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .t-n-14 {
       position: absolute;
@@ -436,10 +441,32 @@
       font-style: normal;
       padding: 0px 0px 0px 0px;
       text-transform: capitalize;
+      color: #212529;
     }
     .drop-d-m {
       list-style-type: none;
       color: black;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px
+    }
+    .drop-d-m:hover{
+      color: #00730C;
+    }
+    li:hover .arrow-2-2{
+      visibility: visible;
+    }
+    li:hover .arrow-3-3{
+      visibility: visible;
+    }
+    li:hover .arrow-4-4{
+      visibility: visible;
+    }
+    li:hover .arrow-5-5{
+      visibility: visible;
+    }
+    li:hover .arrow-6-6{
+      visibility: visible;
     }
     .arrow-2 {
       width: 12px;
@@ -448,12 +475,28 @@
       left: 50px;
       top: 23px;
     }
+    .arrow-2-2{
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      left: 50px;
+      top: 23px;
+      visibility: hidden;
+    }
     .arrow-3 {
       width: 12px;
       height: 7px;
       position: absolute;
       left: 84px;
       top: 23px;
+    }
+    .arrow-3-3{
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      left: 84px;
+      top: 23px;
+      visibility: hidden;
     }
     .arrow-4 {
       width: 12px;
@@ -462,6 +505,14 @@
       left: 70px;
       top: 23px;
     }
+    .arrow-4-4{
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      left: 70px;
+      top: 23px;
+      visibility: hidden;
+    }
     .arrow-5 {
       width: 12px;
       height: 7px;
@@ -469,12 +520,28 @@
       left: 60px;
       top: 23px;
     }
+    .arrow-5-5{
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      left: 60px;
+      top: 23px;
+      visibility: hidden;
+    }
     .arrow-6 {
       width: 12px;
       height: 7px;
       position: absolute;
       left: 40px;
       top: 23px;
+    }
+    .arrow-6-6{
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      left: 40px;
+      top: 23px;
+      visibility: hidden;
     }
     a {
       text-decoration: none;

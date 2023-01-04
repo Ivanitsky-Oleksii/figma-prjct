@@ -369,6 +369,7 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .t-n-10 {
     position: absolute;
@@ -380,6 +381,7 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .t-n-11 {
     position: absolute;
@@ -391,6 +393,7 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .t-n-12 {
     position: absolute;
@@ -402,6 +405,7 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .t-n-13 {
     position: absolute;
@@ -413,6 +417,7 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .t-n-14 {
     position: absolute;
@@ -424,10 +429,32 @@
     font-style: normal;
     padding: 0px 0px 0px 0px;
     text-transform: capitalize;
+    color: #212529;
   }
   header .drop-d-m {
     list-style-type: none;
     color: black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  header .drop-d-m:hover {
+    color: #00730C;
+  }
+  header li:hover .arrow-2-2 {
+    visibility: visible;
+  }
+  header li:hover .arrow-3-3 {
+    visibility: visible;
+  }
+  header li:hover .arrow-4-4 {
+    visibility: visible;
+  }
+  header li:hover .arrow-5-5 {
+    visibility: visible;
+  }
+  header li:hover .arrow-6-6 {
+    visibility: visible;
   }
   header .arrow-2 {
     width: 12px;
@@ -436,12 +463,28 @@
     left: 50px;
     top: 23px;
   }
+  header .arrow-2-2 {
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left: 50px;
+    top: 23px;
+    visibility: hidden;
+  }
   header .arrow-3 {
     width: 12px;
     height: 7px;
     position: absolute;
     left: 84px;
     top: 23px;
+  }
+  header .arrow-3-3 {
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left: 84px;
+    top: 23px;
+    visibility: hidden;
   }
   header .arrow-4 {
     width: 12px;
@@ -450,6 +493,14 @@
     left: 70px;
     top: 23px;
   }
+  header .arrow-4-4 {
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left: 70px;
+    top: 23px;
+    visibility: hidden;
+  }
   header .arrow-5 {
     width: 12px;
     height: 7px;
@@ -457,12 +508,28 @@
     left: 60px;
     top: 23px;
   }
+  header .arrow-5-5 {
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left: 60px;
+    top: 23px;
+    visibility: hidden;
+  }
   header .arrow-6 {
     width: 12px;
     height: 7px;
     position: absolute;
     left: 40px;
     top: 23px;
+  }
+  header .arrow-6-6 {
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left: 40px;
+    top: 23px;
+    visibility: hidden;
   }
   header a {
     text-decoration: none;
